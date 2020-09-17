@@ -25,7 +25,11 @@ For example you can block it or keep it alive and it will not break usefull stat
 
 
 https://www.reddit.com/r/pihole/comments/cvon58/tenda_mw6_calling_home_very_often/
+
 https://superuser.com/questions/1409745/tenda-mw6-mesh-is-talking-to-baidu-what-is-it-doing
+
 https://www.amazon.co.uk/ask/questions/TxSL1F0KXZPPOV/ref=ask_ql_ql_al_hza
+
 https://www.reddit.com/r/pihole/comments/dqau7q/pihole_has_detected_major_privacy_concern/
+
 https://lokilabs.io/tenda-is-this-bad-design-or-a-backdoor/
