@@ -12,11 +12,14 @@ services:
       # - "443:443/tcp"
     environment:
       TZ: 'Europe/Bratislava'
-      WEBPASSWORD: 'Secret'
+      WEBPASSWORD: 'Secret'      
+      WEBUIBOXEDLAYOUT: 'traditional'
+      DNSMASQ_LISTENING: 'all'
+      WEB_PORT: 80
     # Volumes store your data between container upgrades
     volumes:
-      - './data/:/etc/pihole/'
-      # - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
+      - './etc-pihole/:/etc/pihole/'
+      - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
     # Recommended but not required (DHCP needs NET_ADMIN)
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
     cap_add:
