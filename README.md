@@ -20,7 +20,7 @@ Lets asume that we ould like to separate DNS queries for following IPs (192.168.
 - verify changes `iptables -t nat -L -v`
 
 ## DONE. 
-from now every DNS query comming from IPs () will be handled by pihole63.
+from now every DNS query comming from IPs (192.168.100.6,192.168.100.7) will be handled by pihole63.
 For example you can block it or keep it alive and it will not break usefull statistics of normal pihole53 instance.
 
 
